@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv('/Users/felixchan/Desktop/iris.csv',index_col=0) 
+df = pd.read_csv(r'C:\Users\szech\Desktop\sampleclient.csv') 
 df.plot(
     kind = 'scatter',
-    x = 'Petal.Width',
-    y = 'Sepal.Width',
+    x = 'Total Cost ($)',
+    y = 'Total Profit ($)',
     marker = '.', # Set the shape of the markers
 )
 plt.savefig('plot.png')  
