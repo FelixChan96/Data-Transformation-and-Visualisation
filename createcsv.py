@@ -1,4 +1,4 @@
-#Generate CSV file using Python: 
+#Generate CSV file in folder using Python:
 
 import csv
 
