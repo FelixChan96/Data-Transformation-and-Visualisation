@@ -13,4 +13,4 @@ student_data = [
 with open('students.csv', 'w') as file:
     writer = csv.DictWriter(file, fieldnames=student_header)
     writer.writeheader()
-    writer.writerows(student_data)
+    writer.writerows(student_data) 
