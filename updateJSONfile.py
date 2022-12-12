@@ -14,9 +14,9 @@ def write_json(new_data, filename='customerreviews.json'):
         json.dump(file_data, file, indent = 4)
  
     # python object to be appended
-y = {"businessCategory":"Nikhil",
-     "email": "nikhil@geeksforgeeks.org",
-     "job_profile": "Full Time"
+y = {"businessCategory":3,
+     "rating": 0,
+     "reviewText": "Terrible food, unhygenic place"
     }
      
 write_json(y)
