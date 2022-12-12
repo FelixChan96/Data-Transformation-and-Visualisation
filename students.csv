@@ -1,7 +1,0 @@
-name,age,major,minor
-Jack,23,Physics,Chemistry
-Sophie,22,Physics,Computer Science
-John,24,Mathematics,Physics
-Jane,30,Chemistry,Physics
-"['Samantha', 26, 'Computer Science', 'Data Science']","['Bruce', 25, 'Economics', 'Finance']"
-Samantha,26,Computer Science,Data Science
