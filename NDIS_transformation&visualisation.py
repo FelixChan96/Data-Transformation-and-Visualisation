@@ -16,7 +16,8 @@ df = pd.read_csv(r'C:\Users\szech\Desktop\registered_providers_NDIS.csv')
 df = df.drop_duplicates(subset=['Registered Provider Name'], inplace=False)
 df = df.to_csv("registered_providers_NDIS.csv", index=False)
 
-#To find the active providers: 
+#To get only the active providers: 
 
+df = 
 
 
