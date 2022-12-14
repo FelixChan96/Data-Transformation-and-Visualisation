@@ -5,9 +5,9 @@ df = pd.read_csv(r'C:\Users\szech\Desktop\registered_providers_NDIS.csv')
 for col in df.columns:
     print(col)
 
-s = df.groupby('Postcode')['NoWebsiteFlag'].sum() 
+s = df.groupby('State')['NoWebsiteFlag'].sum() 
 s.plot(
-    kind = 'hist'
+    kind = 'pie'
 )
 #s.plot(
         #kind = 'bar',
@@ -16,13 +16,4 @@ s.plot(
 plt.title("NDIS providers with no website by state")
 plt.ylabel('Proportion of state against total without a website')
 plt.savefig('NDISprovidersbystate.png')   
-plt.show()  
-s = df.groupby('cut').size()
-s.plot(
-    kind = 'bar',
-)
-s.plot(
-    kind = 'line',
-)
-plt.savefig('plot.png') 
 plt.show()
