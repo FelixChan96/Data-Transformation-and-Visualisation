@@ -18,6 +18,7 @@ df = df.to_csv("registered_providers_NDIS.csv", index=False)
 
 #To get only the active providers: 
 
-df = 
+df_new = df.drop(df[(df['Active Provider (payment received last 3 months)'] == 1.0)].index)
+print(df_new)
 
 
