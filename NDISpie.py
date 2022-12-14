@@ -9,7 +9,8 @@ s = df.groupby('State')['NoWebsiteFlag'].sum() #Find the mean profit of each cam
 s.plot(
     kind = 'pie'
 )
+
 plt.title("NDIS providers by state")
-plt.ylabel('Has no website with respect to other states')
+plt.ylabel('Providers by state with no website/all with no websites')
 plt.savefig('NDISprovidersbystate.png')   
-plt.show() 
+plt.show()  
