@@ -12,4 +12,4 @@ df = pd.read_csv(r'C:\Users\szech\Desktop\registered_providers_NDIS.csv')
 #df_first_rows = df.head(5)
 #print(df_first_rows)
 
-#Remove duplicates of the same registered provider name, retaining only the head office: 
+#Now to start editing the csv file. First, remove duplicates of the same registered provider name, retaining only the head office: 
