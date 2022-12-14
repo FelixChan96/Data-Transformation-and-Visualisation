@@ -13,8 +13,8 @@ df = pd.read_csv(r'C:\Users\szech\Desktop\registered_providers_NDIS.csv')
 #print(df_first_rows)
 
 #Now to start editing the csv file. First, remove duplicates of the same registered provider name, only one office is required:
-#df = df.drop_duplicates(subset=['Registered Provider Name'], inplace=False)
-#df = df.to_csv("registered_providers_NDIS.csv", index=False)
+df = df.drop_duplicates(subset=['Registered Provider Name'], inplace=False)
+df = df.to_csv("registered_providers_NDIS.csv", index=False)
 
 #Now to separate the address string to retrieve postcode: 
 df["Postcode"] = df["Address"].str.extract("(\d*\.?\d+)", expand=True)
