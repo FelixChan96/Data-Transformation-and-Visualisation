@@ -1,4 +1,3 @@
-#creating csv file in folder: 
 import csv
 
 student_header = ['name', 'age', 'major', 'minor']
@@ -13,4 +12,4 @@ student_data = [
 with open('students.csv', 'w') as file:
     writer = csv.DictWriter(file, fieldnames=student_header)
     writer.writeheader()
-    writer.writerows(student_data) 
+    writer.writerows(student_data)  #this is how you create a CSV from Python 
