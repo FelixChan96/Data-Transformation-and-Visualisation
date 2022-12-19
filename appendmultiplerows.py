@@ -2,7 +2,7 @@
 
 import csv 
 
-counter = range(5)
+counter = range(3)
 
 with open('students.csv', 'a', newline='') as graphFile:
     graphFileWriter = csv.writer(graphFile)
