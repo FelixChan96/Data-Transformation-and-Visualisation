@@ -1,0 +1,8 @@
+{"Name":"Greg","payment method": "Card","amount":23}
+{"Name":"Sophie","payment method":"Card","amount": 22}
+{"Name":"Frank","payment method":"Cash","amount":12}
+{"Name":"Felix","payment method":"Card","amount":25}
+{"Name":"Chris","payment method":"Cash","amount":15}
+{"Name":"Joe","payment method":"Card","amount":33}
+{"Name":"John","payment method":"Card","amount":28}
+{"Name":"Sarah","payment method":"Coupon","amount":0}
