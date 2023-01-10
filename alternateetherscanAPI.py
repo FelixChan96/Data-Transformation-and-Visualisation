@@ -6,8 +6,8 @@ with urllib.request.urlopen("https://api.data.abs.gov.au/data/ABS,C21_G13_SAL,1.
 
 import json
 
-if response.status_code == 200:
-  data = response.json()
+if s.status_code == 200:
+  data = s.json()
   with open('testABS.json','w') as f:
     json.dump(data,f, indent=2)
 
